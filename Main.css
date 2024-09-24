@@ -2,23 +2,30 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
+  background-color: #e5352c;
   padding: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  box-shadow: 0px 1px 50px;
 }
 header h1 {
-  color: black;
+  color: #000000;
 }
 header li {
   display: inline-block;
   margin: 20px;
   font-size: large;
   font-weight: bold;
-}
-header li:hover {
-  transition: all 0.5s ease-in;
-  font-size: 50px;
+  transition: all 0.5s ease-out;
 }
 header a {
   text-decoration: none;
-  color: black;
+  color: #000000;
+  transition: all 0.5s ease-out;
+}
+header a:hover {
+  transition: all 0.5s ease-in;
+  transform: translate(-20px, 0px);
+  font-size: x-large;
+  color: #f29a96;
 }/*# sourceMappingURL=Main.css.map */
