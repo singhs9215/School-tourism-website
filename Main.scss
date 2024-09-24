@@ -1,0 +1,33 @@
+$header-background-color: red;
+$header-h1-color: black;
+$header-text-color: black;
+
+$header-padding: 20px;
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $header-background-color;
+    padding: $header-padding;
+    h1{
+        color:$header-h1-color;
+    }
+
+    li{
+        display: inline-block;
+        margin: 20px;
+        font-size: large;
+        font-weight: bold;
+
+        &:hover{
+        transition: all 0.5s ease-in;
+        font-size: 50px;
+        }
+    }
+    
+    a{
+        text-decoration: none;
+        color:$header-text-color;
+    }
+}
