@@ -28,4 +28,8 @@ header a:hover {
   transform: translate(-20px, 0px);
   font-size: x-large;
   color: #f29a96;
+}
+
+.card {
+  width: 18rem;
 }/*# sourceMappingURL=Main.css.map */
