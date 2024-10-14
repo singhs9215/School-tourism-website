@@ -30,6 +30,15 @@ header a:hover {
   color: #f29a96;
 }
 
-.card {
-  width: 18rem;
+.Carousel-Attraction {
+  margin-top: 10px;
+}
+.Carousel-Attraction .card-holder {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+.Carousel-Attraction .card-holder .card {
+  width: 90%;
 }/*# sourceMappingURL=Main.css.map */

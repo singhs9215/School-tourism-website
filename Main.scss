@@ -17,6 +17,9 @@ $a-hov-col: $pc5;
 $h-pad: 20px;
 $h-pad-LnR: 8%;
 
+//Card in carousel
+$ch-mar-LnR: 10px;
+
 header{
     display: flex;
     justify-content: space-between;
@@ -54,6 +57,17 @@ header{
     }
 }
 
-.card{
-    width: 18rem;
+.Carousel-Attraction{
+    margin-top: 10px;
+    
+    .card-holder{
+        margin-left: $ch-mar-LnR;
+        margin-right: $ch-mar-LnR;
+        display: flex;
+        justify-content: center;
+
+        .card{
+            width: 90%;
+        }
+    }
 }
