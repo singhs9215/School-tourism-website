@@ -34,32 +34,42 @@ header{
         color:$h-h1-col;
     }
 
-    li{
-        display: inline-block;
-        margin: 20px;
-        font-size: large;
-        font-weight: bold;
-        transition: all 0.5s ease-out;  
-    }
-    
-    a{
-        text-decoration: none;
-        color:$h-tx-col;
-        transition: all 0.5s ease-out;
-
-        &:hover{
-            transition: all 0.5s ease-in;
-            transform: translate(-20px,0px);
-            font-size: x-large;
-            color: $a-hov-col;
-        }
+    ul{
+        li{
+            display: inline-block;
+            margin: 20px;
+            font-size: large;
+            font-weight: bold;
+            transition: all 0.5s ease-out;  
+            color:$h-tx-col;
         
+            .move{
+                text-decoration: none;
+                color:$h-tx-col;
+                transition: all 0.5s ease-out;
+
+                &:hover{    
+                    transition: all 0.5s ease-in;
+                    transform: translate(-20px,0px);
+                    font-size: x-large;
+                    color: $a-hov-col;
+                }
+            }
+
+            .nonmove{
+                text-decoration: none;
+                color:$h-tx-col;
+
+                &:hover{
+                    color: $a-hov-col;
+                }
+            }
+        }
     }
 }
 
 .Carousel-Attraction{
-    margin-top: 10px;
-    
+
     .card-holder{
         margin-left: $ch-mar-LnR;
         margin-right: $ch-mar-LnR;
@@ -69,5 +79,18 @@ header{
         .card{
             width: 90%;
         }
+    }
+}
+
+$cr-img-hgt: 645px;
+
+.Carousel-Main{
+    margin-top: 30px;
+    width: 100%;
+    height: $cr-img-hgt;
+
+    .img-carousel{
+        width: 100%;
+        height: $cr-img-hgt;
     }
 }
