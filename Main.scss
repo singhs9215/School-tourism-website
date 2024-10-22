@@ -14,7 +14,7 @@ $h-bg-col: $pc1;
 $h-h1-col: $pc9;
 $h-tx-col: $pc9;
 $a-hov-col: $pc5;
-$h-pad: 20px;
+$h-pad: 10px;
 $h-pad-LnR: 8%;
 
 //Card in carousel
@@ -28,7 +28,7 @@ header{
     padding: $h-pad;
     padding-left: $h-pad-LnR;
     padding-right: $h-pad-LnR;
-    box-shadow: 0px 1px 50px;
+    box-shadow: -10px 1px 50px;
 
     h1{
         color:$h-h1-col;
@@ -78,19 +78,68 @@ header{
 
         .card{
             width: 90%;
+            box-shadow: 0px 1px 50px;
         }
     }
 }
 
-$cr-img-hgt: 645px;
+$car-height: 85vh;
 
 .Carousel-Main{
-    margin-top: 30px;
     width: 100%;
-    height: $cr-img-hgt;
+    height: $car-height;
 
-    .img-carousel{
+    .img-box-carousel{
         width: 100%;
-        height: $cr-img-hgt;
+        height: $car-height;
+        
+
+        &.img-1{
+            width: 100%;
+            height: $car-height;
+            background-image: url("Images/niagara-falls/1.jpg");
+            background-size: cover;
+        }
+
+        &.img-2{
+            width: 100%;
+            height: $car-height;
+            background-image: url("");
+            background-size: cover;
+        }
+
+        &.img-3{
+            width: 100%;
+            height: $car-height;
+            background-image: url("");
+            background-size: cover;
+        }
+
+        &.img-4{
+            width: 100%;
+            height: $car-height;
+            background-image: url("");
+            background-size: cover;
+        }
+
+        &.img-5{
+            width: 100%;
+            height: $car-height;
+            background-image: url("");
+            background-size: cover;
+        }
+
+        &.img-6{
+            width: 100%;
+            height: $car-height;
+            background-image: url("");
+            background-size: cover;
+        }
+
+        .h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }
