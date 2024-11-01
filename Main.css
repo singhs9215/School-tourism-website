@@ -46,54 +46,147 @@ header ul li .nonmove:hover {
 }
 .Carousel-Attraction .card-holder .card {
   width: 90%;
-  box-shadow: 0px 1px 50px;
 }
 
 .Carousel-Main {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
+}
+.Carousel-Main .slick-next {
+  position: absolute;
+  right: 30px;
+}
+.Carousel-Main .slick-prev {
+  position: absolute;
+  left: 30px;
+  z-index: 1;
 }
 .Carousel-Main .img-box-carousel {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
+  position: relative;
 }
 .Carousel-Main .img-box-carousel.img-1 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   background-image: url("Images/niagara-falls/1.jpg");
   background-size: cover;
 }
 .Carousel-Main .img-box-carousel.img-2 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   background-image: url("");
   background-size: cover;
 }
 .Carousel-Main .img-box-carousel.img-3 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   background-image: url("");
   background-size: cover;
 }
 .Carousel-Main .img-box-carousel.img-4 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   background-image: url("");
   background-size: cover;
 }
 .Carousel-Main .img-box-carousel.img-5 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   background-image: url("");
   background-size: cover;
 }
 .Carousel-Main .img-box-carousel.img-6 {
   width: 100%;
-  height: 85vh;
+  height: 88vh;
   background-image: url("");
   background-size: cover;
 }
 .Carousel-Main .img-box-carousel .h1 {
+  filter: blur(0) sepia(0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 100px;
+}
+
+.outerbox {
+  width: 95%;
+  height: 500px;
+  background-color: #f9cdcb;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  border-radius: 20px;
+}
+.outerbox.reverse {
+  flex-direction: row-reverse;
+}
+.outerbox .text {
+  width: 50%;
+}
+.outerbox .text h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.outerbox .text h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.outerbox .text p {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: large;
+  display: flex;
+  justify-content: center;
+}
+.outerbox .text a {
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.outerbox .outbox-img {
+  background-color: #e94f47;
+  background-size: cover;
+  width: 50%;
+  border-radius: 20px;
+}
+.outerbox .outbox-img.pm {
+  background-image: url("Images/General/pm.jpeg");
+}
+.outerbox .outbox-img.poutine {
+  background-image: url("Images/General/Poutine.jpg");
+}
+.outerbox .index-attraction-img {
+  background-image: url("Images/niagara-falls/1.jpg");
+  background-color: #e94f47;
+  background-size: cover;
+  width: 50%;
+  border-radius: 20px;
+}
+.outerbox .index-General-info-img {
+  background-image: url("Images/niagara-falls/1.jpg");
+  background-size: cover;
+  background-color: #e94f47;
+  width: 50%;
+  border-radius: 20px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   justify-content: center;
   align-items: center;

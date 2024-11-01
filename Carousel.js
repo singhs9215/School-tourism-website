@@ -2,14 +2,19 @@ $(document).ready(function(){
 $('.Carousel-Main').slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    autoplay: true,
+    arrows:true,
+    autoplaySpeed: 2000,
+    speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+
   });
 
   $('.Carousel-Attraction').slick({
     centerMode: true,
     centerPadding: '60px',
+    arrows:false,
     slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
