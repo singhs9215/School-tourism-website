@@ -116,35 +116,36 @@ $car-height: 88vh;
         &.img-2{
             width: 100%;
             height: $car-height;
-            background-image: url("");
+            background-image: url("Images/cn-tower/3.jpg");
             background-size: cover;
         }
 
         &.img-3{
             width: 100%;
             height: $car-height;
-            background-image: url("");
+            background-image: url("Images/General/Poutine.jpg");
             background-size: cover;
         }
 
         &.img-4{
             width: 100%;
             height: $car-height;
-            background-image: url("");
+            background-image: url("Images/churchill-manitoba/3.jpg");
             background-size: cover;
         }
 
         &.img-5{
             width: 100%;
             height: $car-height;
-            background-image: url("");
+            background-image: url("Images/old-quebec/3.jpg");
+            
             background-size: cover;
         }
 
         &.img-6{
             width: 100%;
             height: $car-height;
-            background-image: url("");
+            background-image: url("Images/whistler/2.jpg");
             background-size: cover;
 
         }
@@ -227,7 +228,7 @@ $car-height: 88vh;
 
 
     .index-attraction-img{
-        background-image: url("Images/niagara-falls/1.jpg");
+        background-image: url("Images/vancouver-island/3.jpg");
         background-color: $pc3; 
         background-size: cover;
         width: 50%;
@@ -235,7 +236,7 @@ $car-height: 88vh;
     }
 
     .index-General-info-img{
-        background-image: url("Images/niagara-falls/1.jpg");
+        background-image: url("Images/General/Poutine.jpg");
         background-size: cover;
         background-color: $pc3;
         width: 50%;
